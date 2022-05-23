@@ -5,20 +5,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Antonio Alexandre">
-        <title>Sobre mim</title>
+        <title>Contato</title>
 
         <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
 
         <script src="https://kit.fontawesome.com/dda9904eb0.js" crossorigin="anonymous"></script>
 
-        <link href="css/style.css" rel="stylesheet">
-
-
-        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link href={{ url_for('static', filename='bootstrap/bootstrap.min.css' )}} rel="stylesheet">
+        <link href={{ url_for('static', filename='style.css' ) }} rel="stylesheet">
 
         <style>
             .navbar-bg {
-                background: url('img/banner.png') no-repeat center center fixed;
+                background: url('../static/img/banner.png') no-repeat center center fixed;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 background-size: cover;
@@ -90,9 +88,10 @@
                         </h3>
                         <nav class="nav nav-masthead justify-content-center float-md-end">
                             <a class="nav-link fw-bold py-1 px-0" href="index.html">Home</a>
-                            <a class="nav-link fw-bold py-1 px-0"
-                                href="projects.html">Projects</a>
-                            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="aboutme.html">About me</a>
+                            <a class="nav-link fw-bold py-1 px-0" href="projects.html">Projects</a>
+                            <a class="nav-link fw-bold py-1 px-0" href="aboutme.html">About me</a>
+                            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page"
+                                href="contact.html">Contact</a>
                         </nav>
                     </div>
                 </header>
@@ -100,21 +99,23 @@
         </div>
         <main>
 
-            <section class="py-5 text-center container">
-                <div class="row py-lg-5">
-                    <div class="col-lg-6 col-md-8 mx-auto">
-                        <img class="rounded-circle z-depth-2 align-self-center" width="50%" src="img/icon.jpg"
-                        data-holder-rendered="true">
-                        <h1 class="fw-light">Sobre mim</h1>
-
-                        <h5 class="fw-light">Meu nome é Antonio Alexandre Rezende Nepomuceno, tenho 19 anos e sou um estudante no terceiro semestre da faculdade de programação na FATEC. Uso as linguagens de programação phyton e C++, também usando Unity. Tenho inglês avançado e meu foco é desenvolvimento de jogos, para saber mais sobre minhas experiências e sobre mim, acesse</h1>
-                       
+            <section class="py-5 container justify-content-center">
+                <div class="card w-75">
+                    <div class="card-body">
+                      <h5 class="card-title">Twitter</h5>
+                      <p class="card-text">Onde costumo postar a maior parte do progresso dos meus jogos.</p>
+                      <a href="#" class="btn btn-primary">Dar uma olhada</a>
                     </div>
-                </div>
+                  </div>
+                  <br/>
+                  <div class="card w-75">
+                    <div class="card-body">
+                      <h5 class="card-title">Github</h5>
+                      <p class="card-text">Meu github</p>
+                      <a href="#" class="btn btn-primary">Dar uma olhada</a>
+                    </div>
+                  </div>
             </section>
-
-            </div>
-
         </main>
 
         <footer class="text-muted py-5">

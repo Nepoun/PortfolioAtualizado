@@ -11,12 +11,12 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/cover/">
 
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-
+    <link href={{ url_for('static', filename='bootstrap/bootstrap.min.css' )}} rel="stylesheet">
+    <link href={{ url_for('static', filename='style.css' ) }} rel="stylesheet">
 
     <style>
       body {
-        background: url('img/banner.png') no-repeat center center fixed;
+        background: url('../static/img/banner.png') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -24,8 +24,8 @@
       }
     </style>
 
+
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body class="d-flex h-100 text-center text-white bg-dark bg bg-color">
@@ -38,6 +38,8 @@
             <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
             <a class="nav-link fw-bold py-1 px-0" href="projects.html">Projects</a>
             <a class="nav-link fw-bold py-1 px-0" href="aboutme.html">About me</a>
+            <a class="nav-link fw-bold py-1 px-0" href="contact.html">Contact</a>
+
           </nav>
         </div>
       </header>

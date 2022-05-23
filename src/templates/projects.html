@@ -13,14 +13,12 @@
         <script src="https://kit.fontawesome.com/dda9904eb0.js" crossorigin="anonymous"></script>
 
 
-        <link href="css/style.css" rel="stylesheet">
-
-
-        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link href={{ url_for('static', filename='bootstrap/bootstrap.min.css')}} rel="stylesheet">
+        <link href={{ url_for('static', filename='style.css') }} rel="stylesheet">
 
         <style>
             .navbar-bg {
-                background: url('img/banner.png') no-repeat center center fixed;
+                background: url('../static/img/banner.png') no-repeat center center fixed;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 background-size: cover;
@@ -95,6 +93,8 @@
                             <a class="nav-link fw-bold py-1 px-0 active" aria-current="page"
                                 href="projects.html">Projects</a>
                             <a class="nav-link fw-bold py-1 px-0" href="aboutme.html">About me</a>
+                            <a class="nav-link fw-bold py-1 px-0" href="contact.html">Contact</a>
+
                         </nav>
                     </div>
                 </header>
@@ -121,13 +121,11 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
                                     <title>Placeholder</title>
                                     <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
-                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                        fill="#eceeef" dy=".3em">Thumbnail1</text>
                                 </svg>
 
                                 <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Isso é um exemplo dos cartões que serão futuramente utilizados para mostrar a midia do twitter.</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -145,13 +143,12 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
                                     <title>Placeholder</title>
                                     <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
-                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                        fill="#eceeef" dy=".3em">Thumbnail2</text>
                                 </svg>
 
                                 <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Isso é um exemplo dos cartões que serão futuramente utilizados para mostrar a midia do twitter.</p>
+
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -169,86 +166,12 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
                                     <title>Placeholder</title>
                                     <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
-                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                        fill="#eceeef" dy=".3em">Thumbnail3</text>
                                 </svg>
 
                                 <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                        </div>
-                                        <small class="text-muted">9 mins</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                    <p class="card-text">Isso é um exemplo dos cartões que serão futuramente utilizados para mostrar a midia do twitter.</p>
 
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                                    <title>Placeholder</title>
-                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
-                                        fill="#eceeef" dy=".3em">Thumbnail</text>
-                                </svg>
-
-                                <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                        </div>
-                                        <small class="text-muted">9 mins</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                                    <title>Placeholder</title>
-                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
-                                        fill="#eceeef" dy=".3em">Thumbnail</text>
-                                </svg>
-
-                                <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                        </div>
-                                        <small class="text-muted">9 mins</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                                    <title>Placeholder</title>
-                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
-                                        fill="#eceeef" dy=".3em">Thumbnail</text>
-                                </svg>
-
-                                <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -267,13 +190,12 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
                                     <title>Placeholder</title>
                                     <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
-                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                        fill="#eceeef" dy=".3em">Thumbnail4</text>
                                 </svg>
 
                                 <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Isso é um exemplo dos cartões que serão futuramente utilizados para mostrar a midia do twitter.</p>
+
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -291,13 +213,12 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
                                     <title>Placeholder</title>
                                     <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
-                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                        fill="#eceeef" dy=".3em">Thumbnail5</text>
                                 </svg>
 
                                 <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Isso é um exemplo dos cartões que serão futuramente utilizados para mostrar a midia do twitter.</p>
+
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -315,13 +236,82 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
                                     <title>Placeholder</title>
                                     <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
-                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                        fill="#eceeef" dy=".3em">Thumbnail6</text>
                                 </svg>
 
                                 <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Isso é um exemplo dos cartões que serão futuramente utilizados para mostrar a midia do twitter.</p>
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail7</text>
+                                </svg>
+
+                                <div class="card-body">
+                                    <p class="card-text">Isso é um exemplo dos cartões que serão futuramente utilizados para mostrar a midia do twitter.</p>
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail8</text>
+                                </svg>
+
+                                <div class="card-body">
+                                    <p class="card-text">Isso é um exemplo dos cartões que serão futuramente utilizados para mostrar a midia do twitter.</p>
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail9</text>
+                                </svg>
+
+                                <div class="card-body">
+                                    <p class="card-text">Isso é um exemplo dos cartões que serão futuramente utilizados para mostrar a midia do twitter.</p>
+
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
