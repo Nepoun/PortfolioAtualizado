@@ -15,3 +15,8 @@
      </ul>
    </ul>
 </div>
+
+<h2> Importante </h2>
+<h3> 
+  A parte de projetos ainda está em desenvolvimento, futuramente será implementado busca automatica de midia em outras redes sociais minhas utilizando conexão back-end
+</h3>
